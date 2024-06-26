@@ -1,0 +1,34 @@
+body  {
+    background-color: lightgray;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin: auto;
+    padding: 25px 0;
+    box-shadow: 0 0 15px #4c4d4c;
+    border-radius: 10px;
+}
+.logo {
+    width: 150px;
+    display: block;
+    margin: auto; 
+    border: 2px dotted gray; 
+}
+.sernav {
+    text-align: center;
+    font-size: 25px;   
+}
+
+.tor {
+    height: 60px;
+    background-color: lightgray;
+    text-align: center;
+}
+.tor img {
+    width: 40px;
+    margin: 10px;
+}
