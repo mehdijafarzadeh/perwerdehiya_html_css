@@ -1,0 +1,41 @@
+body{
+    margin-top: 20px;
+    padding-top: 60px;
+}
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+li {
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+}
+li a:hover{
+    color: white;
+    background-color: blueviolet;
+}
+.besh {
+    margin: 20px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.besh h2 {
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    scroll-margin-top: 80px;
+}
