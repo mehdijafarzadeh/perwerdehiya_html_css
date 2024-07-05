@@ -1,104 +1,99 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-.header{
-    color: rgb(227, 228, 230);
+.header {
+    color: white;
     height: 350px;
     background-image: url("../images/101.png");
-    background-repeat: no-repeat;
     background-size: cover;
     padding-top: 30px;
     text-align: center;
 }
-.header .nav-list {
+.nav-list{
     list-style-type: none;
-    
 }
-.header .nav-list .nav-item {
-    display: inline-block; 
-    padding: 10px; 
-    margin-bottom: 60px; 
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 60px;
+    font-size: 20px;
 }
-.header .nav-list .nav-item:hover {
-    color: rgb(51, 207, 85);
+.nav-item:hover{
+    color: aquamarine;
 }
-.header h1 {
+.title {
     font-size: 60px;
     width: 900px;
     height: 105px;
-    background-color: rgba(21, 95, 179, 0.2);
-    border-radius: 10px;
     line-height: 105px;
+    background-color: rgba(31, 46, 62, 0.5);
+    border-radius: 10px;
     margin: auto;
 }
-.header h1 span {
-    color: rgb(217, 8, 8); 
-    
+.xal {
+    color: rgb(212, 12, 12);
 }
 .members {
     text-align: center;
     padding: 30px;
 }
-.mem-list{
+.mem-list {
     list-style-type: none;
     margin-top: 20px;
 }
-.mem-item{
-    width: 250px;
+.mem-item {
+    width: 280px;
+    background-color: rgb(63, 135, 183);
     display: inline-block;
     margin: 10px;
-    box-shadow: 0 0 15px #bbb;
+    box-shadow: 0 0 15px #bbbbbb;
     border-radius: 10px;
-    background-color: rgb(63, 135, 183);
 }
-.mem-pic{
+.mem-pic {
     width: 100%;
 }
 .mem-name {
-    font-size: 25px;
+    padding: 20px;
     margin-top: 5px;
 }
 .mem-bio {
     padding: 20px;
     text-align: justify;
 }
+
 .about {
     height: 700px;
     background-image: url("../images/101.png");
     background-size: cover;
     padding-top: 50px;
     color: rgb(127, 4, 6);
-    
 }
-
-.xelek {
+.circle {
     height: 500px;
     width: 500px;
     background-color: rgba(10, 150, 31, 0.5);
-    margin: auto;
     border-radius: 50%;
+    margin: auto;
     text-align: center;
     padding: 120px 100px;
 }
-.xelek h2 {
-    font-size: 35px;
+.circle h2 {
+    font-size: 40px;
 }
-.xelek p {
+.circle p {
     margin-top: 40px;
     text-align: justify;
 }
+
 .footer {
     height: 40px;
-    background-color: #333;
+    background-color: #333333;
     text-align: center;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
+
 }
 .footer img {
     width: 30px;
-    margin:5px;
+    margin: 5px;
 }
